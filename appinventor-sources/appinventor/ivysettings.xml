@@ -1,0 +1,15 @@
+<ivysettings>
+	<property name="android.m2rep.dir" value="file:///home/watxinango/Android/Sdk/extras/android/m2repository" />
+	<property name="google.m2rep.dir" value="file:///home/watxinango/Android/Sdk/extras/google/m2repository" />
+	<property name="jitpack.m2rep" value="https://jitpack.io" />
+
+	<settings defaultResolver="robobo-resolver"/>
+	<resolvers>
+		<chain name="robobo-resolver">
+			<ibiblio name="online" m2compatible="true" />
+			<ibiblio name="jitpack" m2compatible="true" root="${jitpack.m2rep}" />
+			<ibiblio name="localAndroid" m2compatible="true" root="${android.m2rep.dir}" />
+			<ibiblio name="localGoogle" m2compatible="true" root="${google.m2rep.dir}" checksums="" />
+		</chain>
+	</resolvers>
+</ivysettings>

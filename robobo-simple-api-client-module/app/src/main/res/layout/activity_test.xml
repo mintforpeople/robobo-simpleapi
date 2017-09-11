@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mytechia.simpleapi.test.TestActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="4dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="4dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/b_corporal_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="corporalTest"
+            android:text="@string/corporal_test"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="64dp" />
+
+        <Button
+            android:id="@+id/b_it1_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="it1Test"
+            android:text="@string/it1_test"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="64dp" />
+
+        <Button
+            android:id="@+id/b_visual_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="visualTest"
+            android:text="@string/visual_test"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <Button
+            android:id="@+id/b_facial_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="facialTest"
+            android:text="@string/facial_test"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <Button
+            android:id="@+id/b_touch_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="touchTest"
+            android:text="@string/touch_test"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <Button
+            android:id="@+id/b_it2_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="it2Test"
+            android:text="@string/it2_test"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <Button
+            android:id="@+id/b_sound_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="soundTest"
+            android:text="@string/sound_test"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <Button
+            android:id="@+id/b_it3_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="it3Test"
+            android:text="@string/it3_test"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <Button
+            android:id="@+id/b_balance_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="balanceTest"
+            android:text="@string/balance_test"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <Button
+            android:id="@+id/b_internal_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="internalTest"
+            android:text="@string/internal_test"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <Button
+            android:id="@+id/b_it4_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="it4Test"
+            android:text="@string/it4_test"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="168dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

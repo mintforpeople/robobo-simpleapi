@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">robobo-simple-api-client-module</string>
+    <string name="corporal_test">Test Corporal Expression</string>
+    <string name="it1_test">Iteration 1 Test</string>
+    <string name="visual_test">Test Visual Perception</string>
+    <string name="facial_test">Test Facial Expression</string>
+    <string name="touch_test">Test Touch Perception</string>
+    <string name="it2_test">Iteration 2 Test</string>
+    <string name="sound_test">Test Sound</string>
+    <string name="it3_test">Iteration 3 Test</string>
+    <string name="balance_test">Test Balance Perception</string>
+    <string name="internal_test">Test Internal Perception</string>
+    <string name="it4_test">Iteration 4 Test</string>
+</resources>

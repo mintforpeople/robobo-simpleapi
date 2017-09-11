@@ -1,0 +1,16 @@
+<ivy-module version="2.4">
+	<info organisation="com.mytechia" module="hello-ivy"/>
+	<dependencies>
+		<!--<dependency org="com.mytechia" name="robobo-rob-interface" rev="0.2.12"/>-->
+		<!--<dependency org="com.mytechia" name="robobo-hri-emotion-module" rev="0.3.3"/>-->
+		<!--
+		<dependency org="com.mytechia" name="robobo-framework" rev="0.3.5"/>
+		<dependency org="com.mytechia" name="robobo-rob-module" rev="0.2.9"/>
+		<dependency org="com.mytechia" name="robobo-sound" rev="0.2.5"/>
+      <dependency org="com.mytechia" name="robobo-speech" rev="0.2.4"/>
+      <dependency org="com.mytechia" name="robobo-hri-touch-module" rev="0.2.5"/>
+		<dependency org="com.mytechia" name="robobo-messaging" rev="0.2.0"/>
+		<dependency org="com.mytechia" name="robobo-vision" rev="0.2.7"/>
+		-->
+	</dependencies>
+</ivy-module>
